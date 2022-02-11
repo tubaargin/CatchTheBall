@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity {
         score++;
         binding.scoreText.setText("Score:" + score);
         sharedPreferences.edit().putInt("Score", score).apply();
+
     }
 
     public void hideImages() {
