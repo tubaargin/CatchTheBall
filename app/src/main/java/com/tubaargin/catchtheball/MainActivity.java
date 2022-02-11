@@ -10,6 +10,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Handler;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -95,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         score++;
         binding.scoreText.setText("Score:" + score);
         sharedPreferences.edit().putInt("Score", score).apply();
-
+        Log.i("tuba","increasescore");
     }
 
     public void hideImages() {
