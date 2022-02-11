@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CatchTheBall</string>
+    <string name="restart">Yeniden başla</string>
+    <string name="sure_restart_game">Tekrar oyna?</string>
+
+</resources>
